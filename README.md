@@ -42,3 +42,20 @@ simplified
 
 -   zero exception handling needed because all exceptions are converted to
     RuntimeExceptions.
+
+ 
+
+ 
+
+JdbcTemplate
+
+-   provided by Spring
+
+-   is a abstraction on top of JDBC API
+
+-   provides great transaction management capabilities using annotation based
+    approach
+
+-   Spring Jdbc Template without Spring Boot requires registering DataSource,
+    TransactionManager and JdbcTemplate beans and optionally we can register
+    DataSourceInitializer bean to initialize our database

@@ -1,4 +1,5 @@
 Spring JDBC Template
+--------------------
 
  
 
@@ -180,7 +181,7 @@ module.
 
     -   **NamedParameterJdbcTemplate**
 
--   SpringBoot uses schema.sql and data.sql to  automatically initialize
+-   SpringBoot uses schema.sql and data.sql to automatically initialize
     database; additionally we can use schema-\${platform}.sql and
     data-\${platform}.sql; the \${platform} value is set in property
     spring.datasource.platform and can be hsqldb,h2,oracle,mysql,postgresql...

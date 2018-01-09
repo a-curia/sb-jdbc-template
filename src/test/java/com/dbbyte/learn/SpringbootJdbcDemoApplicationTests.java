@@ -15,7 +15,7 @@ import com.dbbyte.learn.model.User;
 import com.dbbyte.learn.repository.UserRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(SbJdbcTemplateApplication.class)
+//@SpringApplicationConfiguration(SbJdbcTemplateApplication.class)
 public class SpringbootJdbcDemoApplicationTests
 {
 
